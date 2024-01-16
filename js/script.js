@@ -60,6 +60,7 @@ $('.service-slider').slick({
 $('.testi-slider').slick({
   dots: false,
   infinite: true,
+  autoplay: true,
   speed: 300,
   slidesToShow: 2,
   slidesToScroll: 1,
