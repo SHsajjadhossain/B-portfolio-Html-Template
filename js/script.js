@@ -2,9 +2,17 @@
 //          nav-part js start
 // ==============================================
 
-$(".bar").click(function(){
-  $(".nav-item").fadeToggle()
-})
+// $(".bar").click(function(){
+//   $(".nav-item").fadeToggle()
+// })
+
+$('.bar').click(function(){
+    $('.nav-item').toggle('slow');
+});
+
+  //  $(".bar").click(function(){
+  //       $('.nav-item').slideToggle('slow');
+  //   });
 
 // ==============================================
 //          nav-part js end
