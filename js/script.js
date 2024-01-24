@@ -84,7 +84,7 @@ $('.testi-slider').slick({
 $('.blog-slider').slick({
   dots: false,
   infinite: true,
-  autoplay: true,
+  autoplay: false,
   speed: 300,
   slidesToShow: 3,
   slidesToScroll: 1,
